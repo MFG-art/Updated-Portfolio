@@ -1,0 +1,33 @@
+.h1 {
+  font-family: "Inconsolata", monospace;
+  font-size: 40px;
+}
+body {
+  background-image: url(./Assets/Images/background_tile.png);
+  background-repeat: repeat;
+}
+#main {
+  padding: 30px;
+  font-family: "Inconsolata", monospace;
+  max-width: 70%;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-size: 20px;
+}
+
+@media (max-width: 576px) {
+  #main {
+    padding: 15px;
+    font-family: "Inconsolata", monospace;
+    max-width: 98%;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 14px;
+  }
+  #profile-image {
+    width: 50%;
+    margin-bottom: 50px;
+  }
+}
