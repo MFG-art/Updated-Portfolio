@@ -16,6 +16,10 @@ body {
   font-size: 20px;
 }
 
+a {
+  font-weight: normal;
+}
+
 @media (max-width: 576px) {
   #main {
     padding: 15px;
@@ -29,5 +33,17 @@ body {
   #profile-image {
     width: 50%;
     margin-bottom: 50px;
+  }
+  a {
+    font-weight: bolder;
+  }
+}
+
+@media (max-width: 1000px) {
+  .screenshot-img {
+    width: 80%;
+  }
+  h2 {
+    font-size: 20px;
   }
 }
